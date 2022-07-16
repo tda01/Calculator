@@ -19,7 +19,7 @@ body {
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
 }
 
-button {
+.calculator-button {
     background-color: #8ba1d8a1;
     border: 1px solid white;
     cursor: pointer;
@@ -28,8 +28,12 @@ button {
     
 }
 
-button:hover {
+.calculator-button:hover {
     background-color: white;
+}
+
+.calculator-button:active {
+    background-color: #8ba1d8a1;
 }
 
 .two-col {
@@ -50,12 +54,12 @@ button:hover {
 
 }
 
-.operand-previous {
+.previous-operand {
     font-size: 1.5rem;
     color: rgba(0, 0, 0, .75);
 }
 
-.operand-current {
+.current-operand {
     font-size: 2.5rem;
     
 }
